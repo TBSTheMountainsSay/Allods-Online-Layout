@@ -1,0 +1,21 @@
+$palette: (
+  white: #fff,
+  red-black: #300,
+  black: #0000,
+  red: #671d00,
+  yellow: #fcff00,
+  light-yellow: #ffffff,
+  black-ultra: #000,
+  blue: #416df4,
+);
+
+$light-theme: (
+  def: map-get($palette, white),
+  background-gradient-1: map-get($palette, red-black),
+  background-gradient-2: map-get($palette, black),
+  table: map-get($palette, red),
+  button: map-get($palette, yellow),
+  button-hover: map-get($palette, light-yellow),
+  button-text: map-get($palette, black-ultra),
+  title: map_get($palette, blue),
+);

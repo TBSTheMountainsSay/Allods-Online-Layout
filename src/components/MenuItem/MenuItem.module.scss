@@ -1,0 +1,49 @@
+.menu_item {
+  width: 100%;
+  border: 1px solid var(--table);
+  display: flex;
+  flex-direction: row;
+  height: 7.4rem;
+  .img {
+    display: flex;
+    width: 6.4rem;
+    height: 6.4rem;
+    align-self: center;
+    margin: 0 2rem 0 0.5rem;
+  }
+  .text {
+    color: var(--def);
+    display: flex;
+    width: 14rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.875rem;
+  }
+  .text:last-child {
+    margin-left: 1.25rem;
+  }
+  .title {
+    justify-content: left;
+    width: 16rem;
+    margin-right: 8.5rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .menu_item {
+    .img {
+      margin-right: 1rem;
+    }
+    .text {
+      width: 6rem;
+      font-size: 1.2rem;
+    }
+    .title {
+      justify-content: left;
+      width: 10rem;
+      margin-right: 1rem;
+    }
+  }
+}
